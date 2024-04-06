@@ -4,6 +4,7 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
+    "build": "tsc",
     "start": "tsc && node dist/index.js",
     "lint": "eslint . --ext .ts",
     "test": "set PORT=0 && jest"
